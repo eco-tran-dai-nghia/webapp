@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>ECO · App nội bộ</title>
+<meta name="description" content="App nội bộ CLB Môi trường ECO Trần Đại Nghĩa">
+<meta name="theme-color" content="#faf8f5" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#161512" media="(prefers-color-scheme: dark)">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="assets/icon-192.png">
+<link rel="apple-touch-icon" href="assets/icon-192.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="ECO">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/app.css?v=1">
+</head>
+<body>
+<div id="busy" class="busy hide"></div>
+<div id="app"><div class="login-wrap"><p class="muted">Đang mở app ECO…</p></div></div>
+<div id="toast" class="toast hide" role="status" aria-live="polite"></div>
+<script src="js/config.js?v=1"></script>
+<script src="js/app.js?v=1"></script>
+<script src="js/p-member.js?v=1"></script>
+<script src="js/p-bod.js?v=1"></script>
+<script src="js/p-admin.js?v=1"></script>
+<script src="js/p-mail.js?v=1"></script>
+<script>boot();</script>
+</body>
+</html>
